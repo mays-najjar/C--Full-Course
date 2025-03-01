@@ -8,7 +8,7 @@ namespace ConsoleApp1
     public class Basic2
     {
 
-        static void Main(string[] args)
+        static void Fun ()
         {
 
             // Boolean data type 
@@ -52,7 +52,32 @@ namespace ConsoleApp1
             Console.WriteLine(x++); // first print then add
             Console.WriteLine(++x); // first add then print
            // Remainder
-           
+           int a = 10;
+              int b = 3;
+                Console.WriteLine(a % b); // 1
+                Console.WriteLine(b % a); // 3
+                Console.WriteLine(a % 2); // 0
+                Console.WriteLine(b % 2); // 1
+
+                // Exersize
+                string name = "Mays";
+                string phoneNumber = "0597405322";
+                int age3 = 24;
+                Console.WriteLine(name);
+                Console.WriteLine(phoneNumber);
+                Console.WriteLine(age3);
+                var isMarried = false; 
+                Console.WriteLine(isMarried);
+                var email = "mays.najjar@gmail.com";
+                Console.WriteLine(email);     
+// odd even checker
+                int a1 = 2;
+                int b1 = 9 ;
+                int c = b1 % a1;
+                Console.WriteLine(c); // 1
+                b1 = 10 ;
+                c = b1 % a1 ; 
+                Console.WriteLine(c); // 0
 
 
 
